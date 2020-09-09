@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    background-image: url("./images/x.jpg");
+    background-size: cover;
+    background-position: center top;
+    height: 735px;
+    text-align: center;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px 40px;
+    font-size: 20px;
+    border-bottom: 1px solid white;   
+}
+
+.nav ul{
+    list-style: none;
+}
+
+.nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px 10px;
+    color: white;
+}
+
+​.nav li a:link {
+    text-decoration: none;
+    color: white;
+}
+  
+.nav li  a:visited {
+    text-decoration: none;
+    color: white;
+}
+  
+.nav li  a:hover {
+    text-decoration: underline;
+    color: white;
+}
+  
+.nav li  a:active {
+    text-decoration: underline;
+    color: white;
+}
+
+.header h1{
+    font-size: 75px;
+    margin-top: 250px;
+}
+​
+.header p{
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.main{
+    color: white;
+    padding-top: 30px;
+    background-color: #0c1e2f;
+}
+
+.main h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+.main img{
+    width: 300px;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container{
+    display: inline-block; 
+    width: 400px;
+    padding-left: 50px;
+}
+
+.container h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.container p{
+    font-size: 20px;
+}
+
+.container ul{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.container li{
+    font-size: 20px;
+}
